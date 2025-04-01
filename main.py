@@ -1,3 +1,8 @@
+'''
+Render published dashboard link:
+https://worldcupwinners-dashinterface.onrender.com/
+'''
+
 import numpy as np
 import pandas as pd
 from dash import Dash, html, dash_table, dcc, callback, Output, Input, MATCH, ALL
