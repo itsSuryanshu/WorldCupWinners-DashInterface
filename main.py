@@ -74,7 +74,7 @@ def display_data(primary, secondary):
     wins.columns = ['Country', 'Wins']
 
     fig = px.choropleth(
-        wins, locations='Country', color='Wins', range_color=[0, 5], hover_name='Country', locationmode='country names', projection='orthographic'
+        wins, locations='Country', color='Wins', range_color=[0, 5], hover_name='Country', locationmode='country names', projection='orthographic', width=1000, height=600
     )
 
     choropleth = dcc.Graph(figure=fig)
