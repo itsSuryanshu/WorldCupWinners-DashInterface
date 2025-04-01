@@ -75,7 +75,9 @@ def display_data(primary, secondary):
     choropleth = dcc.Graph(figure=fig)
 
     return data, choropleth
-
+'''
 # Run the app
 if __name__ == '__main__':
     app.run(debug=True)
+'''
+server = app.server
